@@ -1,8 +1,10 @@
-
-import Message from "./Message"
-
-function App (){
-  return <div><Message></Message></div>
+import Knap from "./Components/butoon";
+function App() {
+  return (
+    <div>
+      <Knap color="primary" text="Test" />
+    </div>
+  );
 }
 
 export default App;
